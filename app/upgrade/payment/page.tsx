@@ -32,7 +32,7 @@ export default function UpgradePaymentPage() {
   }
 
   const handleCopyAccountNumber = () => {
-    navigator.clipboard.writeText("1047973745")
+    navigator.clipboard.writeText("0449980938")
     setCopiedAccount(true)
     setTimeout(() => setCopiedAccount(false), 2000)
   }
@@ -95,7 +95,7 @@ export default function UpgradePaymentPage() {
                 <span>🔢</span> Account Number
               </p>
               <div className="flex items-center justify-between">
-                <p className="font-bold">1047973745</p>
+                <p className="font-bold">0449980938</p>
                 <button
                   onClick={handleCopyAccountNumber}
                   className="bg-orange-400 text-white px-3 py-1 rounded text-sm"
@@ -109,14 +109,14 @@ export default function UpgradePaymentPage() {
               <p className="text-gray-700 mb-1 text-sm flex items-center gap-1">
                 <span>🏦</span> Bank Name
               </p>
-              <p className="font-bold">FCMB</p>
+              <p className="font-bold">WEMA BANK</p>
             </div>
 
             <div>
               <p className="text-gray-700 mb-1 text-sm flex items-center gap-1">
                 <span>🚹</span> Account Name
               </p>
-              <p className="font-bold">NIKE JAPHET</p>
+              <p className="font-bold">JOSHUA OLUBUSADE</p>
             </div>
           </div>
 
